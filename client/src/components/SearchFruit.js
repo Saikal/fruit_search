@@ -15,7 +15,7 @@ class SearchFruit extends React.Component {
   }
 
   search () {
-    this.props.search(this.state.searching_fruit);
+    this.props.search(this.state.searching_fruit.toLowerCase());
   }
 
   render() {
