@@ -1,5 +1,4 @@
 import React from 'react';
-<meta charset = "UTF-8" />
 
 class SearchFruit extends React.Component {
   constructor(props) {
@@ -22,7 +21,7 @@ class SearchFruit extends React.Component {
   render() {
     return (
       <div>
-        <input type="text" value={this.state.searching_fruit} onChange={this.onChange.bind(this)} placeholder="Enter Fruit" required />
+        <input type="text" value={this.state.searching_fruit} onChange={this.onChange.bind(this)} placeholder="Enter Fruit" />
         <button type="submit" onClick={this.search.bind(this)}>Search</button>
       </div>
     )
