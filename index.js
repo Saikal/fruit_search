@@ -44,7 +44,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 
 app.get('/:name', (req, res) => {
-  res.json(fruits[req.params.name]);
+  fruits[req.params.name] ? res.json(fruits[req.params.name]) : res.json(null);
 });
 
 // The "catchall" handler: for any request that doesn't
