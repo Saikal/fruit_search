@@ -18,6 +18,7 @@ To start Server:
 To start client:
 
 ### `cd client`
+### `npm install`
 ### `npm start` 
 
 
