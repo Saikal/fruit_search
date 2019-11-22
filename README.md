@@ -17,7 +17,10 @@ To start client:
 ### `cd client`
 ### `npm start` 
 
+**UI should display:**
 
+Button **Search** clicked:
+![alt text](mockups/fruit-app.png)
 
 This is a minimal demo of using Create React App to bootstrap a React project, connect the React app to an Express backend, and deploy the whole thing to Heroku.
 
