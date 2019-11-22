@@ -21,4 +21,6 @@ Client:
 Deployed the App in Heroku: [Fruit Search App for Beautycounter](https://beautycounter.herokuapp.com/)
 
 
-This is a minimal demo of using Create React App to bootstrap a React project, connect the React app to an Express backend, and deploy the whole thing to Heroku.
+This is a minimal demo of using Create React App, connect the React app to an Express backend, REST API, deploy the whole thing to Heroku.
+
+Desktop, Laptop views.
