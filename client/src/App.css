@@ -1,0 +1,46 @@
+
+.app-present {
+  background-color: #F2FCFC;
+  border-radius: 15px;
+  width: 700px;
+  text-align: center;
+  padding: 40px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 500; 
+}
+
+button {
+  border-color: #0082A3;
+  border-radius: 10px;
+  margin: 15px;
+  width: 120px;
+  height: 40px;
+}
+
+button:focus, input:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+input {
+  height: 20px;
+}
+
+img {
+  height: 220px;
+  width: 250px;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: #004EA3;
+}
