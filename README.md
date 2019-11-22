@@ -5,17 +5,13 @@ Button **Search** clicked:
 
 Fruit Search App built with React and Express.
 
-Clone Repo, Enter and Run following commands
+Clone Repo, Enter Repo and Run following commands
 
 ### `npm install`
-
-
-To start Server:
-
 ### `npm start`
 
 
-To start client:
+Client:
 
 ### `cd client`
 ### `npm install`
