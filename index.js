@@ -44,14 +44,12 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 
 app.get('/:name', (req, res) => {
-  console.log("****** here! Fruit Name!", req.params.name);
   res.json(fruits[req.params.name]);
 });
 
 // The "catchall" handler: for any request that doesn't
 // match one above, send back React's index.html file.
 app.get('*', (req, res) => {
-  console.log("****** here! No URL");
   res.sendFile(path.join(__dirname+'/client/build/index.html'));
 });
 
