@@ -21,6 +21,9 @@ To start client:
 ### `npm start` 
 
 
+Deployed the App in Heroku: [Fruit Search App for Beautycounter](https://beautycounter.herokuapp.com/)
+
+
 This is a minimal demo of using Create React App to bootstrap a React project, connect the React app to an Express backend, and deploy the whole thing to Heroku.
 
 Read the blog post: [Create React App with Express in
