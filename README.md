@@ -22,5 +22,4 @@ Deployed the App in Heroku: [Fruit Search App for Beautycounter](https://beautyc
 
 
 This is a minimal demo of using Create React App, connect the React app to an Express backend, REST API, deploy the whole thing to Heroku.
-
 Desktop, Laptop views.
