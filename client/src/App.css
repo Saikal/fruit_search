@@ -9,7 +9,8 @@
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 22px;
+  padding: 25px;
 }
 
 h2 {
@@ -21,9 +22,9 @@ h2 {
 button {
   border-color: #0082A3;
   border-radius: 10px;
-  margin: 15px;
-  width: 120px;
-  height: 40px;
+  margin: 35px;
+  width: 180px;
+  height: 50px;
 }
 
 button:focus, input:focus {
@@ -33,6 +34,7 @@ button:focus, input:focus {
 
 input {
   height: 20px;
+  width: 200px;
 }
 
 img {
